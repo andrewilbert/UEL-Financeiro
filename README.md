@@ -17,7 +17,10 @@ Desta forma, os objetivos serão norteados da seguinte forma:
 > A integração com o **Paxtu** ainda depende de negociação com a UEB e a equipe responsável por aquele sistema, para que sejam disponibilizados web-services ou outro tipo de comunicação.
 
 ## Funcionalidades previstas
-1. Planejamento de atividades escoteiras, facilitado com o uso de templates e estimativas com base nas atividades anteriores e orçamentos.
+1. Integração bancária para registro automático de recebimentos e pagamentos.
+1. Exportação de registros para controle contábil, que poderá ser feito através de planilhas ou outros sistemas que permitam a importação destes dados; o objetivo principal é evitar erro humano e retrabalho.
+1. Planejamento e controle de atividades escoteiras, facilitado com o uso de templates e estimativas com base nas atividades anteriores e orçamentos.
+1. Planejamento e controle financeiro de projetos específicos, tal como os voltados para atendimento da comunidade local ou arrecadação de fundos à médio e longo prazos.
 
 ### Recursos periféricos (necessários para viabilizar as funcionalidades):
 1. Cadastros de membros juvenis e adultos.
@@ -27,3 +30,4 @@ Desta forma, os objetivos serão norteados da seguinte forma:
 1. Cadastro de fornecedores.
 1. Cadastro de produtos e serviços consumidos.
 1. Cadastro de orçamentos.
+1. ...
