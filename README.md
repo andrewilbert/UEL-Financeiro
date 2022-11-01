@@ -17,10 +17,16 @@ Desta forma, os objetivos serão norteados da seguinte forma:
 > A integração com o **Paxtu** ainda depende de negociação com a UEB e a equipe responsável por aquele sistema, para que sejam disponibilizados web-services ou outro tipo de comunicação.
 
 ## Funcionalidades previstas
+1. Planejamento e controle financeiro geral da UEL [^financGeral].
+1. Planejamento e controle financeiro de atividades escoteiras [^ativEscoteira], facilitado com o uso de templates e estimativas com base nas atividades anteriores e orçamentos.
+1. Planejamento e controle financeiro de projetos específicos, tal como os voltados para atendimento da comunidade local ou arrecadação de fundos à médio e longo prazos.
+
+[^financGeral]: O planejamento e controle financeiro GERAL, apesar de óbvio para este sistema, se refere à administração financeira em todos os escopos, incluindo as atividades escoteiras e projetos escoteiros, também mencionados neste documento.
+[^ativEscoteira]: O termo "Atividade Escoteira" se refere às atividades realizadas junto com as tropas e alcatéias, seja em sede ou externas.
+
+### Integrações
 1. Integração bancária para registro automático de recebimentos e pagamentos.
 1. Exportação de registros para controle contábil, que poderá ser feito através de planilhas ou outros sistemas que permitam a importação destes dados; o objetivo principal é evitar erro humano e retrabalho.
-1. Planejamento e controle de atividades escoteiras, facilitado com o uso de templates e estimativas com base nas atividades anteriores e orçamentos.
-1. Planejamento e controle financeiro de projetos específicos, tal como os voltados para atendimento da comunidade local ou arrecadação de fundos à médio e longo prazos.
 
 ### Recursos periféricos (necessários para viabilizar as funcionalidades):
 1. Cadastros de membros juvenis e adultos.
