@@ -1,7 +1,7 @@
 # UEL-Financeiro
 `Esta documentação está em elaboração.`
 
-Projeto aberto e colaborativo para desenvolvimento de um sistema que simplifique e automatiza ao máximo a administração financeira de uma Unidade Escoteira Local.
+Projeto aberto e colaborativo para desenvolvimento de um sistema que simplifique e automatize ao máximo a administração financeira de uma Unidade Escoteira Local.
 
 ## Objetivos
 Desta forma, os objetivos serão norteados da seguinte forma:
