@@ -17,8 +17,8 @@ Desta forma, os objetivos serão norteados da seguinte forma:
 > A integração com o **Paxtu** ainda depende de negociação com a UEB e a equipe responsável por aquele sistema, para que sejam disponibilizados web-services ou outro tipo de comunicação.
 
 ## Funcionalidades previstas
-1. Planejamento e controle financeiro geral da UEL [^financGeral].
-1. Planejamento e controle financeiro de atividades escoteiras [^ativEscoteira], facilitado com o uso de templates e estimativas com base nas atividades anteriores e orçamentos.
+1. Planejamento e controle financeiro geral da UEL[^financGeral].
+1. Planejamento e controle financeiro de atividades escoteiras[^ativEscoteira], facilitado com o uso de templates e estimativas com base nas atividades anteriores e orçamentos.
 1. Planejamento e controle financeiro de projetos específicos, tal como os voltados para atendimento da comunidade local ou arrecadação de fundos à médio e longo prazos.
 
 [^financGeral]: O planejamento e controle financeiro GERAL, apesar de óbvio para este sistema, se refere à administração financeira em todos os escopos, incluindo as atividades escoteiras e projetos escoteiros, também mencionados neste documento.
@@ -37,3 +37,17 @@ Desta forma, os objetivos serão norteados da seguinte forma:
 1. Cadastro de produtos e serviços consumidos.
 1. Cadastro de orçamentos.
 1. ...
+
+### Arquitetura
+1. Backend baseado em API Rest com retorno em formato JSON, para flexibilizar a elaboração do frontend, que poderá ser customizado ou mesmo elaborado um novo pela(s) UEL.
+1. Base de dados integral, mesmo que parcialmente bloqueada para alterações, como forma de manter a independência no caso de sistemas coligados estarem offline.
+
+### Tecnologia e Metodologia
+Utilização de linguagens e estruturas que demonstrem uma curva de aprendizado curta, tendo como base um MVP, com o intuito de viabilizar a participação da maior quantidade possível de colaboradores com o código. Desta forma, inicialmente fica escolhido o seguinte:
+1. Frontend: HTML5 + Javascript + CSS, utilização de poucos frameworks, e apenas que contribuam com a produtividade e recursos imprescindíveis, tal como jQuery e Bootstrap ou Material Design[^naoCustomizarFrameworks].
+1. Backend: PHP 7+.
+1. Base de dados: MySQL.
+1. Infraestrutura de servidores: Nenhuma restrição.
+1. Navegador referência: Google Chrome.
+
+[^naoCustomizarFrameworks]: Os frameworks não devem ser alterados ou customizados, em hipótese alguma, de forma a não alterar suas características esperadas por outros desenvolvedores e, com isso, gerar impacto negativo na produtividade. Se for do interesse futuro, poderá ser adicionado o recurso de *Temas*, para permitir uma personalização do ambiente do Frontend.
