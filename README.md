@@ -29,12 +29,12 @@ Desta forma, os objetivos serão norteados da seguinte forma:
 1. Exportação de registros para controle contábil, que poderá ser feito através de planilhas ou outros sistemas que permitam a importação destes dados; o objetivo principal é evitar erro humano e retrabalho.
 
 ### Recursos periféricos (necessários para viabilizar as funcionalidades):
-1. Cadastros de membros juvenis e adultos.
-1. Cadastro de plano de contas financeiro.
-1. Cadastro de plano de contas contábil.
-1. Cadastro de atividades escoteiras.
-1. Cadastro de fornecedores.
-1. Cadastro de produtos e serviços consumidos.
+1. Cadastros de membros juvenis e adultos: Cadastro feito por usuários específicos; auto-cadastramento; conta de acesso para fins relacionados.
+1. Cadastro de plano de contas financeiro: Cadastro feito por usuários específicos; contas bancárias X contas financeiras; empenhos e projeções.
+1. Cadastro de plano de contas contábil: Cadastro feito por usuários específicos.
+1. Cadastro de atividades escoteiras: Cadastro feito por usuários específicos.
+1. Cadastro de fornecedores: Cadastro feito por usuários específicos; auto-cadastramento; conta de acesso para fins relacionados.
+1. Cadastro de produtos e serviços consumidos: Cadastro feito por usuários específicos À PARTIR do planejamento de atividades ou de operações.
 1. Cadastro de orçamentos.
 1. ...
 
